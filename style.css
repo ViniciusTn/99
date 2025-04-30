@@ -195,3 +195,41 @@ body, html {
   border-radius: 8px;
   font-weight: bold;
 }
+.silent-ride {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.silent-box {
+  background-color: #f1f1f1;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.silent-box h3 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.silent-options {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.silent-option {
+  display: flex;
+  align-items: center;
+}
+
+.silent-option input {
+  margin-right: 6px;
+}
+
+.silent-description {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+}
