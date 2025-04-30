@@ -24,19 +24,17 @@ body, html {
   box-sizing: border-box;
 }
 
-/* ––– NOVO: painel superior flexível ––– */
 .header.top-panel {
   display: flex;
   align-items: center;
-  justify-content: space-between;   /* separa back, lista e alterar */
+  justify-content: space-between;   
   background: #fff;
   border-radius: 8px;
   padding: 8px 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  margin-bottom: 12px;              /* espaço para o content-box */
+  margin-bottom: 12px;             
 }
 
-/* botão voltar permanece circular, mas sem gap extra */
 .btn-back {
   background: white;
   border: none;
@@ -52,7 +50,7 @@ body, html {
   padding: 0;
 }
 
-/* lista de endereços ocupa o espaço do meio */
+
 .locations {
   flex: 1;
   margin: 0 12px;
@@ -76,7 +74,7 @@ body, html {
   margin-bottom: 0;
 }
 
-/* bolinhas coloridas */
+
 .dot {
   width: 8px;
   height: 8px;
@@ -86,7 +84,7 @@ body, html {
 .green { background-color: #00cc66; }
 .orange { background-color: #ff9933; }
 
-/* link “Alterar” alinhado à direita */
+
 .btn-alter {
   font-weight: bold;
   font-size: 14px;
@@ -95,7 +93,7 @@ body, html {
   padding: 4px 8px;
 }
 
-/* ––– resto do seu CSS (content-box etc.) permanece igual ––– */
+
 .content-box {
   position: absolute;
   bottom: 20px;
@@ -111,8 +109,8 @@ body, html {
   display: flex;
   align-items: center;
   background: #fff;
-  border-radius: 999px;      /* pílula completa */
-  padding: 6px 16px;         /* ajuste vertical e horizontal */
+  border-radius: 999px;      
+  padding: 6px 16px;         
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   gap: 12px;
 }
@@ -142,4 +140,58 @@ body, html {
   align-items: center;
   justify-content: center;
   padding: 0;
+}
+.ride-offer {
+  padding: 12px;
+  background: #fff;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+}
+
+.ride-title {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ride-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+
+.ride-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.ride-icon {
+  font-size: 24px;
+}
+
+.ride-type {
+  font-weight: bold;
+}
+
+.ride-seats::before {
+  content: '👥';
+  margin-right: 4px;
+}
+
+.ride-time {
+  color: #666;
+}
+
+.ride-price {
+  background: #eee;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: bold;
 }

@@ -8,11 +8,13 @@
 </head>
 <body>
   <div class="phone-screen">
-    
+    <!-- Container do header: transparente, apenas alinha os itens -->
     <div class="header" style="display: flex; align-items: center; gap: 8px; padding: 20px 10px 0; box-sizing: border-box; position: absolute; top: 0; left: 0; width: 100%;">
-        <button class="back-button" aria-label="Voltar">&larr;</button>
-           <div class="address-card">
-         <ul class="address-list">
+      <!-- botão voltar circular separado -->
+      <button class="back-button" aria-label="Voltar">&larr;</button>
+      <!-- cartão de endereços em formato de pílula -->
+      <div class="address-card">
+        <ul class="address-list">
           <li><span class="dot green"></span>Rua Claudio Lopes 984</li>
           <li><span class="dot orange"></span>Rua Araceli 35</li>
         </ul>
@@ -20,7 +22,20 @@
       </div>
     </div>
 
-    <div class="content-box"></div>
+    <div class="content-box">
+      <!-- Novo card de opção de corrida -->
+      <div class="ride-offer">
+        <h2 class="ride-title">Aproveite a sua corrida com 99</h2>
+        <div class="ride-card">
+          <div class="ride-info">
+            <span class="ride-icon">🚗</span>
+            <span class="ride-type">POP</span>
+            <span class="ride-seats">4</span>
+            <span class="ride-time">5min</span>
+          </div>
+          <div class="ride-price">R$17,30</div>
+        </div>
+      </div></div>
   </div>
 </body>
 </html>
