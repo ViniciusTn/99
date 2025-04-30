@@ -8,10 +8,18 @@
 </head>
 <body>
   <div class="phone-screen">
-    <div class="header">
-      <button class="back-button">&larr;</button>
-      <div class="search-bar"></div>
+    
+    <div class="header" style="display: flex; align-items: center; gap: 8px; padding: 20px 10px 0; box-sizing: border-box; position: absolute; top: 0; left: 0; width: 100%;">
+        <button class="back-button" aria-label="Voltar">&larr;</button>
+           <div class="address-card">
+         <ul class="address-list">
+          <li><span class="dot green"></span>Rua Claudio Lopes 984</li>
+          <li><span class="dot orange"></span>Rua Araceli 35</li>
+        </ul>
+        <a href="#" class="alterar-link">Alterar</a>
+      </div>
     </div>
+
     <div class="content-box"></div>
   </div>
 </body>
